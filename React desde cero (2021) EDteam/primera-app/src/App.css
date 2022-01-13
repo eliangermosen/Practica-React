@@ -1,0 +1,8 @@
+.container {
+  /* que sea una cuadricula */
+  display: grid;
+  /* que sean 3 columnas de 300px cada una */
+  grid-template-columns: repeat(3, 300px);
+  /* con un espaciado de 20px cada una */
+  gap: 20px;
+}
