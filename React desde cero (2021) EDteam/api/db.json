@@ -80,5 +80,17 @@
             "precio": 0,
             "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
         }
+    ],
+    "servicios":[
+        {
+            "id":1,
+            "nombre":"Curso de reposteria",
+            "descripcion":"Este es un curso desde cero que te enseñara a hacer cupcakes."
+        },
+        {
+            "id":2,
+            "nombre":"Delivery a toda la ciudad",
+            "descripcion":"Pide desde donde quieras y los cupcakes llegaran a tu casa."
+        }
     ]
 }

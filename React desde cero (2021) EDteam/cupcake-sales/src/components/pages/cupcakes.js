@@ -1,11 +1,12 @@
-import { useEffect, useState } from "react";
-import { get } from "axios";
+// import { useEffect, useState } from "react";
+// import { get } from "axios";
+import useFetch from "../../hooks/useFetch"
 import Cupcake from "../cards/Cupcake"
  
 const Cupcakes = ({ peticion, title }) => {
 
     //cupcakes sera lo que venga desde data
-    const [cupcakes, setCupkapes] = useState();
+    //const [cupcakes, setCupkapes] = useState();
 
     /* FETCH
     useEffect(()=>{
@@ -16,11 +17,13 @@ const Cupcakes = ({ peticion, title }) => {
         .catch(e => console.error(e))
     },[peticion]);//esto para que si cambia peticion se vuelva a renderizar */
     
-    // AXIOS
+    /* // AXIOS
     useEffect(()=>{
         get(`${process.env.REACT_APP_URL_API}${peticion}`)
         .then(({data}) => setCupkapes(data))
-    },[peticion]);
+    },[peticion]); */
+
+    const [cupcakes] = useFetch(peticion)
     
     return(
     <div className="ed-grid">
