@@ -1,0 +1,84 @@
+{
+    "cupcakes":[
+        {
+            "id":1,
+            "sabor":"Vainilla",
+            "color":"Amarillo",
+            "descripcion":"Gran cupcake sabor vainilla clasica",
+            "precio": 10,
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id":2,
+            "sabor":"Chocolate",
+            "color":"Marron",
+            "descripcion":"gran cupcake sabor chocolate clasica",
+            "precio": 20,
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id":3,
+            "sabor":"Fresa",
+            "color":"Rojo",
+            "descripcion":"gran cupcake sabor fresa clasica",
+            "precio": 15,
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id":4,
+            "sabor":"Oreo",
+            "color":"Negro",
+            "descripcion":"gran cupcake sabor oreo clasica",
+            "precio": 25,
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id":5,
+            "sabor":"Red Velvet",
+            "color":"Rojo",
+            "descripcion":"gran cupcake sabor Red Velvet clasica",
+            "precio": 25,
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id":6,
+            "sabor":"Mantequilla de mani",
+            "color":"Marron",
+            "descripcion":"gran cupcake sabor Mantequilla de mani clasica",
+            "precio": 15,
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id":7,
+            "sabor":"Zanahoria",
+            "color":"Mamey",
+            "descripcion":"gran cupcake sabor Zanahoria clasica",
+            "precio": 10,
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id":8,
+            "sabor":"Manzana",
+            "color":"Normal",
+            "descripcion":"gran cupcake sabor Manzana clasica",
+            "precio": 15,
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id":9,
+            "sabor":"Banana",
+            "color":"Amarillo",
+            "descripcion":"gran cupcake sabor Banana clasica",
+            "precio": 10,
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id":10,
+            "sabor":"NONE",
+            "color":"NONE",
+            "descripcion":"gran cupcake sabor NONE clasica",
+            "precio": 0,
+            "imagen": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        }
+    ]
+}
