@@ -85,3 +85,59 @@ export class EventosES7 extends Component{
         )
     }
 }
+
+// LOS ATRIBUTOS DE EVENTOS SON PARA EL JSX NO PARA LOS 
+// COMPONENTES PERSONALIZADOS SI DESEO HACERLO ASI DEBO 
+// CREAR UNA PROP A ESTO SE LE CONOCE EVENTO PERSONALIZADO
+
+// function Boton(props){
+//     return(<button onClick={props.myOnClick}>Boton hecho Componente</button>)
+// }
+
+// VARIABLE EXPRESADA
+// const Boton = (props) => (
+//     <button onClick={props.myOnClick}>Boton hecho Componente</button>
+// )
+
+// TECNICA DESTRUCTURACION
+const Boton = ({myOnClick}) => (
+    <button onClick={myOnClick}>Boton hecho Componente</button>
+)
+
+export class MasSobreEventos extends Component{
+
+// https://es.reactjs.org/docs/events.html
+
+    handleClick = (e,mensaje) => {
+        // evento sintectico react
+        console.log(e);
+        console.log(e.target);
+        // evento original/nativo de JS
+        console.log(e.nativeEvent);
+        console.log(e.nativeEvent.target);
+        console.log(mensaje);
+    }
+
+    render(){
+        return(
+            <div>
+                <h2>Mas Sobre Eventos</h2>
+                {/* si necesito pasar parametro mediante algun evento esta seria la manera correcta */}
+                <button 
+                    onClick={(e) => 
+                    this.handleClick(e,"Hola pasando parametro desde un evento")}>
+                        Saludar
+                </button>
+                {/* COMPONENTE DE EVENTO PERSONALIZADO */}
+                {/* <Boton 
+                    onClick={(e) => 
+                    this.handleClick(e,"Hola pasando parametro desde un evento")}
+                /> */}
+                <Boton 
+                    myOnClick={(e) => 
+                    this.handleClick(e,"Hola pasando parametro desde un evento")}
+                />
+            </div>
+        )
+    }
+}
