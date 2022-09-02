@@ -18,12 +18,12 @@ export default class Estado extends Component {
             contador: 0,
         }
 
-        setInterval(() => {
-            // para actualizar el estado esta el setState
-            this.setState({
-                contador: this.state.contador + 1
-            });
-        }, 1000);
+        // setInterval(() => {
+        //     // para actualizar el estado esta el setState
+        //     this.setState({
+        //         contador: this.state.contador + 1
+        //     });
+        // }, 1000);
     }
     render(){
         return(
