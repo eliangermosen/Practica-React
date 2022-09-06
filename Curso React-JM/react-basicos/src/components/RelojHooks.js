@@ -27,7 +27,7 @@ export default function RelojHooks (){
 
         // componentWillUnmount: Desmontaje
         return () => {
-            console.log("Fase de Desmontaje");
+            // console.log("Fase de Desmontaje");
             clearInterval(temporizador);
         }
     }, [visible]);//solo cuando la variable visible haga un cambio se ejecutara
